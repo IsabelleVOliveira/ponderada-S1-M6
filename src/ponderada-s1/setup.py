@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ola_mundo'
+package_name = 'ponderada-s1'
 
 setup(
     name=package_name,
