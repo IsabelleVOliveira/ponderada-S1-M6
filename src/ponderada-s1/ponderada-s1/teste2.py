@@ -45,7 +45,7 @@ class DesenhoTartaruga(Node):
 
         for linear_x in moves:
             twist.linear.x = linear_x[0]*3
-            twist.linear.y = linear_x[1]*3 # Reduzi o número de repetições para 10
+            twist.linear.y = linear_x[1]*3 
             self.publisher_.publish(twist)
             time.sleep(1)
 
